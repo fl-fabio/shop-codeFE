@@ -85,6 +85,7 @@ function App() {
           </p>
           <p>{product.price} $</p>
           <button className="btn btn-danger">Add to cart</button>
+          <button className="btn btn-primary">Buy now</button>
 
         </div>
       </div>
