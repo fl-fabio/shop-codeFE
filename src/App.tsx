@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
 import "./App.css";
+import Cart from "./cart";
 
 function App() {
   type Product = {
@@ -84,6 +85,7 @@ function App() {
             {product.description}
           </p>
           <p>{product.price} $</p>
+          <Cart />
           <button className="btn btn-primary">Add to cart</button>
           <button className="btn btn-danger">Remove from cart</button>
 
